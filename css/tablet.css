@@ -12,6 +12,10 @@
     column-gap: 24px;
   }
 
+  .features-item {
+    text-align: left;
+  }
+
   .section-what-we-do {
     display: none;
   }

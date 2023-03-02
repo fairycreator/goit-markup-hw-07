@@ -3,6 +3,16 @@
     max-width: 1158px;
   }
 
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .feauters {
     justify-content: space-between;
   }
@@ -14,6 +24,17 @@
 
   .features-card {
     display: flex;
+  }
+
+  .features-item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-weight: 400;
   }
 
   .section-what-we-do {
