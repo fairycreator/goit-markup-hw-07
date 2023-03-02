@@ -31,4 +31,13 @@
   .customers-item:last-child {
     margin-right: 0;
   }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .container-hero {
+    max-width: 496px;
+  }
 }

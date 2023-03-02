@@ -30,4 +30,28 @@
     height: 88px;
     flex-basis: calc(100% / 3 - 24px);
   }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-hero {
+    max-width: 496px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
 }
