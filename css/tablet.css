@@ -11,4 +11,23 @@
     row-gap: 72px;
     column-gap: 24px;
   }
+
+  .section-what-we-do {
+    display: none;
+  }
+  .our-team {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .customers-list {
+    justify-content: space-between;
+    row-gap: 72px;
+  }
+
+  .customers-item {
+    width: 168px;
+    height: 88px;
+    flex-basis: calc(100% / 3 - 24px);
+  }
 }

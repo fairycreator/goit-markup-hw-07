@@ -15,4 +15,20 @@
   .features-card {
     display: flex;
   }
+
+  .section-what-we-do {
+    display: block;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
+  .customers-item {
+    flex-basis: calc(100% / 6 - 24px);
+  }
+
+  .customers-item:last-child {
+    margin-right: 0;
+  }
 }
