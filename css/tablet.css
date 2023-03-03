@@ -58,4 +58,80 @@
     font-size: 56px;
     line-height: 1.07;
   }
+
+  /* menu */
+
+  .logo {
+    margin-right: 120px;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .menu-link:not(:last-child) {
+    gap: 40px;
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--accent-color);
+  }
+
+  .underline::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    pointer-events: none;
+  }
+
+  .menu-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition-duration: 250ms;
+  }
+
+  .nav {
+    display: flex;
+    margin-right: auto;
+  }
+
+  .contacts {
+    display: flex;
+    gap: 40px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    justify-content: flex-end;
+    align-items: center;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+  .contacts:is(:hover, :focus) {
+    color: var(--accent-color);
+  }
+
 }
