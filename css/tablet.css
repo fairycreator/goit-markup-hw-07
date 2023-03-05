@@ -140,4 +140,16 @@ margin-right: 0;
     color: var(--accent-color);
   }
 
+  /*footer*/
+ .footer-section {
+  justify-content: space-between;
+  row-gap: 72px;
+  column-gap: 24px;
+  max-width: 526px;
+  flex-basis: calc(100% / 2 - 24px);
+ }
+
+ .footer-container {
+ width: 264px;
+ }
 }
