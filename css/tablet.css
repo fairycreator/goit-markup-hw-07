@@ -64,10 +64,18 @@
   .logo {
     margin-right: 120px;
   }
-  
+
+  .menu-open {
+    display: none;
+  }
+
+
   .menu-list {
     display: flex;
     gap: 40px;
+    align-items: center;
+    padding-top: 25px;
+  padding-bottom: 25px;
   }
 
   .menu-link:not(:last-child) {
@@ -100,13 +108,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--link-color);
-
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
     transition-duration: 250ms;
   }
 
@@ -117,7 +122,7 @@
 
   .contacts {
     display: flex;
-    gap: 40px;
+    gap: 6px;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -125,7 +130,8 @@
     color: var(--text-color);
     justify-content: flex-end;
     align-items: center;
-
+flex-wrap: wrap;
+margin-right: 0;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
   }

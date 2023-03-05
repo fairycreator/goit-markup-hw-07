@@ -8,6 +8,14 @@
     padding-bottom: 120px;
   }
 
+  .menu-open {
+    display: none;
+  }
+
+  .contacts {
+    gap: 40px;
+  }
+
   .section-customers {
     padding-top: 120px;
     padding-bottom: 120px;
