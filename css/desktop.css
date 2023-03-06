@@ -114,6 +114,14 @@
   
   .footer-social-icons {
     margin-left: 120px;
+    display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 16px;
+  max-width: 428px;
+  padding: 0;
+  margin: 0 auto;
   }
   
   .footer-social-list {

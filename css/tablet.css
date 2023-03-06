@@ -36,7 +36,7 @@
   }
 
   .hero {
-    background-image: var(--linear-gradient), url(../images/bg-tablet.jpg);
+    background-image: var(--linear-gradient), url(../images/bg-tablet.jpeg);
     padding-top: 188px;
     padding-bottom: 188px;
     padding-left: 32px;
@@ -50,7 +50,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: var(--linear-gradient), url(../images/bg-tablet-2x.jpg);
+    background-image: var(--linear-gradient), url(../images/bg-tablet-2x.jpeg);
   }
 
   .container-hero {
@@ -169,6 +169,13 @@ margin-right: 0;
 
  .footer-social-icons {
   width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 16px;
+  max-width: 428px;
+  padding: 0;
   margin: 0 auto;
  }
 
