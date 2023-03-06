@@ -339,7 +339,7 @@ color: #434455;
 
 .hero {
   background-color: var(--link-color);
-  background-image: var(--linear-gradient), url(../images/bg.jpg);
+  background-image: var(--linear-gradient), url(../images/bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -348,6 +348,12 @@ color: #434455;
   margin: 0 auto;
   padding: 112px 24px;
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--linear-gradient), url(../images/bg-mob-2x.jpg);
+  }
 
 .container-hero {
   max-width: 320px;

@@ -36,6 +36,7 @@
   }
 
   .hero {
+    background-image: var(--linear-gradient), url(../images/bg-tablet.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
     padding-left: 32px;
@@ -44,6 +45,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--linear-gradient), url(../images/bg-tablet-2x.jpg);
   }
 
   .container-hero {
