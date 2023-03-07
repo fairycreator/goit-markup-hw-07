@@ -164,7 +164,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-start;
     row-gap: 72px;
     column-gap: 24px;
@@ -193,7 +192,7 @@
     max-width: 453px;
     margin-left: 0;
     margin-right: auto;
-    gap: 16px;
+    gap: 24px;
   }
 
   .subcribe-input {
