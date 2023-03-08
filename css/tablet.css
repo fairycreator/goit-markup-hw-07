@@ -16,6 +16,9 @@
   }
 
   .features {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
   }
@@ -27,6 +30,7 @@
   .section-what-we-do {
     display: none;
   }
+
   .our-team {
     row-gap: 72px;
     column-gap: 24px;
