@@ -10,4 +10,8 @@
   .customers-list {
     row-gap: 72px;
   }
+
+  .subscribe-field {
+    min-width: 398px;
+  }
 }

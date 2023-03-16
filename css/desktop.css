@@ -78,24 +78,24 @@
     .hero {
       background-image: var(--linear-gradient), url(../images/bg-2x.jpg);
     }
+  }
 
-    .container-hero {
-      max-width: 496px;
-    }
+  .container-hero {
+    max-width: 496px;
+  }
 
-    /*footer*/
+  /*footer*/
 
-    .footer {
-      padding-top: 100px;
-      padding-bottom: 100px;
-    }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .footer-section {
-      display: flex;
-      max-width: 1158px;
-      margin-left: auto;
-      margin-right: auto;
-      column-gap: 120px;
-    }
+  .footer-section {
+    display: flex;
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 120px;
   }
 }
